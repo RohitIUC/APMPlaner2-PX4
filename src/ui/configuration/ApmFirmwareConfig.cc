@@ -509,6 +509,7 @@ void ApmFirmwareConfig::requestFirmwares(QString type, QString autopilot, bool n
     {
         // There is no support of beta software for apm any more so we ignore the type
         ui.warningLabelAC33->show();
+        
         /*
          * AC3.3 only supports Pixhawk, APM1/APM2 is discontinued.
          * Last known 'latest': https://firmware.ardupilot.org/Copter/2015-03/2015-03-13-00:03/

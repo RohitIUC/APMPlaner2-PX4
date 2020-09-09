@@ -1,4 +1,6 @@
-apmplanner2 () UNRELEASED; urgency=low
+apmplanner2 (2.1) UNRELEASED; urgency=low
 
+  [ 2020-09-09  Rohit  <er.rohitiuc@gmail.com> ]
+  * First commit
 
- -- MAINTAINER <apm_planner@noreply.github.com>  Wed, 09 Sep 2020 15:28:19 +0530
+ -- MAINTAINER <apm_planner@noreply.github.com>  Wed, 09 Sep 2020 16:15:16 +0530
