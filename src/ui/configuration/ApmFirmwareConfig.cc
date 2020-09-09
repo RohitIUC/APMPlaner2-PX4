@@ -509,7 +509,7 @@ void ApmFirmwareConfig::requestFirmwares(QString type, QString autopilot, bool n
     {
         // There is no support of beta software for apm any more so we ignore the type
         ui.warningLabelAC33->show();
-        
+
         /*
          * AC3.3 only supports Pixhawk, APM1/APM2 is discontinued.
          * Last known 'latest': https://firmware.ardupilot.org/Copter/2015-03/2015-03-13-00:03/
@@ -526,7 +526,7 @@ void ApmFirmwareConfig::requestFirmwares(QString type, QString autopilot, bool n
         m_buttonToUrlMap[ui.hexaPushButton] = prepath + "-hexa/ArduCopter" + poststring + ".px4";
         m_buttonToUrlMap[ui.octaQuadPushButton] = prepath + "-octa-quad/ArduCopter" + poststring + ".px4";
         m_buttonToUrlMap[ui.octaPushButton] = prepath + "-octa/ArduCopter" + poststring + ".px4";
-        m_buttonToUrlMap[ui.quadPushButton] = prepath + "-quad/ArduCopter" + poststring + "px4";
+        m_buttonToUrlMap[ui.quadPushButton] = prepath + "-quad/ArduCopter" + poststring + ".px4";
         m_buttonToUrlMap[ui.triPushButton] = prepath + "-tri/ArduCopter" + poststring + ".px4";
         m_buttonToUrlMap[ui.y6PushButton] = prepath + "-y6/ArduCopter" + poststring + ".px4";
         m_buttonToUrlMap[ui.copterPushButton]      = DEFAULT_ARDUPILOT_FW_URL + "/Copter/" + type + "/" + prestring + "-heli/ArduCopter" + poststring + ".px4";
